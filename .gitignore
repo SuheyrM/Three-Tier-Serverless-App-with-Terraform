@@ -1,0 +1,11 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Lambda build artifacts
+lambda/function.zip
+
+# OS files
+.DS_Store

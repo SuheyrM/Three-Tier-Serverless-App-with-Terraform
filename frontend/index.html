@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three-Tier Web App</title>
+  </head>
+  <body>
+    <h1>Hello from Frontend (v2)!</h1>
+    <button onclick="callApi()">Call API</button>
+
+    <h3>API response:</h3>
+    <pre id="response">No response yet…</pre>
+
+    <script>
+      async function callApi() {
+        console.log("clicked");
+        const url = "https://so2m349gs5.execute-api.us-east-1.amazonaws.com/prod/hello";
+        console.log("fetching:", url);
+
+        const res = await fetch(url);
+        const text = await res.text();
+
+        document.getElementById('response').textContent = text;
+      }
+    </script>
+  </body>
+</html>
