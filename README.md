@@ -1,5 +1,3 @@
-# Three-Tier-Web-App
-
 # Three-Tier Serverless Web Application (AWS + Terraform)
 
 ## Overview
@@ -190,3 +188,4 @@ This project demonstrates:
 - Secure serverless implementation  
 - Real-world debugging of CORS and CloudFront caching  
 - Production-style AWS deployment patterns  
+
