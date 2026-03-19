@@ -1,5 +1,8 @@
 # Three-Tier Serverless Web Application (AWS + Terraform)
 
+## Architecture Diagram
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/91872bd7-94d6-46e9-9ff6-fb09c5e625a0" />
+
 ## Overview
 
 This project implements a production-style three-tier serverless architecture on AWS using Terraform (Infrastructure as Code).
